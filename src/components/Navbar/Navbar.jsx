@@ -21,7 +21,7 @@ return (
                 <a href='/'><FaGithub/></a> 
         </div>
     </div>
-        <header className='flex justify-between p-5 bg-slate-100 text-black items-center'>
+        <header className='flex justify-between p-5  text-black items-center bg-gradient-to-r from-purple-300 to-pink-500 '>
             <div className='cursor-pointer text-lg'> <Link to="/">Devolynx</Link></div>
             <div className=''>
                 <ul className='flex gap-x-5'>    
@@ -32,7 +32,7 @@ return (
                 </ul>
             </div>
             <div>
-                <button className='bg-sky-600 px-2 py-1 rounded'>Get a Quote</button>
+                <button className='bg-fuchsia-300 px-2 py-1 rounded'>Get a Quote</button>
             </div>
         </header>
     </>
